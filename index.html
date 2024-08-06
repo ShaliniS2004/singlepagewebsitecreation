@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+   <head> 
+    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>SINGLE PAGE E-COMMERCE WEBSITE</title>
+    <!-- Bootstrap CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.2/font/bootstrap-icons.min.css" integrity="sha512-YFENbnqHbCRmJt5d+9lHimyEMt8LKSNTMLSaHjvsclnZGICeY/0KYEeiHwD1Ux4Tcao0h60tdcMv+0GljvWyHg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+      
+    <!-- Custom Styles -->
+    <style>
+       
+       
+      .color-rosybrown{
+         color:rosybrown
+      }
+      .color-teal{
+       color:teal;  
+      }
+      .icon-lg{
+         font-size: 50px;
+      }
+      .icon-sm{
+         font-size: 50px;
+      }
+      .remove-text-decoration{
+         text-decoration: none;}
+      .remove-bullets {
+         list-style: none;
+      }
+
+    </style>
+    
+   </head>
+   <body>
+         <!-- Your HTML content here -->
+         <!-- Bootstrap Bundle with Popper -->
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+      
+      <header>
+         <!-- Header Section -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+               <a href="#" class="navbar-brand">
+                  <img src="assets/logo.png" width="250px" alt="brand logo">
+                  <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="navbar1">
+                     <i class="bi bi-list"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbar1">
+                     <div class="navbar-nav ms-auto">
+                         <a href="#" class="nav-item nav-link active">Home</a>
+                         <div class="nav-item dropdown">
+                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About Us</a>
+                             <div class="dropdown-menu">
+                                 <a href="#" class="dropdown-item">Company</a>
+                                 <a href="#" class="dropdown-item">Team</a>
+                                
+                             </div>
+                         </div>
+                         <a href="#" class="nav-item nav-link">Contact Us</a>
+                     </div>
+                 </div>
+               
+               
+                  </div>
+               </a>
+            </div>
+         </nav>
+         <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-indicators">
+               <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+               <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+               <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <img src="assets/fruit.avif" class="d-block w-100" alt="carousel 1" style="max-height: 100vh;">
+               </div>
+               <div class="carousel-item">
+                  <img src="assets/istockphoto.jpg" class="d-block w-100" alt="carousel 2" style="max-height: 100vh;">
+               </div>
+               <div class="carousel-item">
+                  <img src="assets/fruits.jpg" class="d-block w-100" alt="carousel 3" style="max-height: 100vh;">
+               </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+               <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+               <span class="carousel-control-next-icon"></span>
+            </button>
+         </div>
+         </div>
+      </header>
+      <!-- Main Section -->
+    <main class="m-5">
+      <section class="container m-4" id="About Us">
+         <div class="card-body text-center">
+            <h4 class="card-title fs-1 m-3"> About Us</h4>
+            </div>
+         <div class="row">
+            <div class="col-md-5">
+               <div class="container">
+                <img src="assets/fruits.jpg"  width="450px" height="300px" alt="About Us">
+               </div>
+            </div>
+            <div class="col-md-7">
+               <p class="text-black-50">
+                  Welcome to our fruit shop, where freshness meets flavour in every bite. At our shop, we believe in providing our customers with the finest selection of handpicked fruits sourced from local farms and beyond. With a passion for quality and a commitment to sustainability, we strive to bring you the juiciest, ripest fruits nature has to offer. Whether you're craving the sweetness of summer berries or the crispness of autumn apples, our diverse range of fruits is sure to satisfy your taste buds. Come experience the bounty of nature at our fruit shop, where every visit is a delightful journey through orchards of abundance.At Fresh Fruits one is sure to find the sparkling fruits and nuts with exceptional value and world class services.
+                  We work closely with our suppliers, building an extensive knowledge of these rare and hard-to-obtain fruits.
+                  We are always looking to discover new and exciting fruits and are regularly updating our range, working hard to source fresh produce.We're dedicated to bringing you the freshest, most flavorful fruits sourced locally and sustainably.
+               </p>
+            </div>
+         </div>
+         <div class="row m-3">
+            <div class="col-md-4">
+               <div class="container text-center">
+                  <span class="bi bi-person color-teal icon-lg"></span>
+                  <p>User Option</p>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="container text-center">
+                  <span class="bi bi-shield-shaded color-teal icon-lg"></span>
+                  <p>Quality</p>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="container text-center">
+                  <span class="bi bi-basket-fill color-teal icon-lg"></span>
+                  <p>More Info</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="Team" class="container">
+         <div class="card-body text-center">
+            <h4 class="card-title fs-1 m-3">Our Innovative Team</h4>
+            </div>
+         <div class="container m-5">
+            <div class="row">
+               <div class="col-md-4 d-flex align-items-center justify-content-center">
+                  <div class="card" style="width: 300px;">
+                  <img class="card-img-top" src="assets/bussinessman.png">
+                  <div class="card-body text-center">
+                  <h4 class="card-title"> Team Member-1</h4>
+               <p class="card-text">Founder & CEO -Team Member-1 is the visionary behind our fruit shop, with a lifelong passion for fresh produce and sustainable farming. Her dedication ensures we always offer the best quality fruits</p>
+               <i class="bi bi-facebook icon-sm m-2"></i>
+               <i class="bi bi-instagram icon-sm m-2"></i>
+               <i class="bi bi-linkedin icon-sm m-2"></i>
+            </div>
+               </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+               <div class="card" style="width: 300px;">
+               <img class="card-img-top" src="assets/bussinessman.png">
+               <div class="card-body text-center">
+               <h4 class="card-title"> Team Member-2</h4>
+            <p class="card-text">Operation Manager-Team Member-2 With over a decade of experience in the industry, John oversees daily operations, ensuring that every fruit on our shelves meets our high standards of freshness and quality. </p>
+            <i class="bi bi-facebook icon-sm m-2"></i>
+            <i class="bi bi-instagram icon-sm m-2"></i>
+            <i class="bi bi-linkedin icon-sm m-2"></i>
+         </div>
+            </div>
+         </div>
+         <div class="col-md-4 d-flex align-items-center justify-content-center">
+            <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="assets/bussinessman.png">
+            <div class="card-body text-center">
+            <h4 class="card-title"> Team Member-3</h4>
+         <p class="card-text">Customer Service Lead-Team Member-3 Emily's warm smile and extensive knowledge of our products ensure that every customer has a delightful shopping experience and finds exactly what they’re looking for.</p>
+         <i class="bi bi-facebook icon-sm m-2"></i>
+         <i class="bi bi-instagram icon-sm m-2"></i>
+         <i class="bi bi-linkedin icon-sm m-2"></i>
+      </div>
+         </div>
+      </div>
+         </div></div>
+      </section>
+      <section class="container " id="Contact Us">
+         <div class="card-body text-center">
+            <h4 class="card-title fs-1 m-3">Reach Us</h4>
+            </div>
+         <div class="row">
+            <div class="col-md-4">
+               <div class="container m-4">
+                  
+                  <div class="text-black-s text-align-left  fs-4"> Email</div>
+                  <div class="text-black-50  fs-4"> fruitshop@gmail.com</div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="container m-4">
+                  
+                  <div class="text-black-s  fs-4"> Phone No</div>
+                  <div class="text-black-50  fs-4"> XXXXXXXXXX</div>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="container m-4">
+                  
+                  <div class="text-black-s fs-4"> Address</div>
+                  <div class="text-black-50  fs-4">24-Mainstreet , Magic Mystery,fruitopia PIN-XXXXXX </div>
+               </div>
+            </div>
+            <div class="container mt-4">
+               <div class="row justify-content-center">
+                 <div class="col-md-4 d-flex align-items-center justify-content-center">
+                   <div class="container">
+                     <div class="card-body text-center">
+                        <h4 class="card-title fs-3 m-3"> Given Your Thoughts</h4>
+                        </div>
+                     <div class="container">
+                       <div class="card shadow card-title">
+                         <div class="card-body">
+                           <form class="d-flex flex-column align-items-center">
+                             <div class="form-group w-100">
+                               <label for="name" class="form-label fs-5 color-teal">Enter Your Name</label>
+                               <input type="text" class="form-control" name="name" id="name">
+                             </div>
+                             <div class="form-group w-100">
+                               <label for="emailid" class="form-label fs-5 color-teal">Enter Your Email</label>
+                               <input type="email" class="form-control" name="email" id="emailid">
+                             </div>
+                             <div class="form-group w-100">
+                               <label for="subject" class="form-label fs-5 color-teal">Enter Your Subject</label>
+                               <input type="text" class="form-control" name="subject" id="subject">
+                             </div>
+                             <div class="form-group w-100">
+                              <label for="gender" class="form-label fs-5 color-teal">Select Your Gender</label>
+                              <select class="form-select" name="gender" id="gender">
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="other">Other</option>
+                              </select>
+                              <br>
+                              <br>
+                             <div class="form-group w-100">
+                               <label for="message" class="form-label fs-5 color-teal">Feedback</label>
+                               <textarea class="form-control" name="message" id="message"></textarea>
+                             </div>
+                             <div class="form-group w-100">
+                              <label for="rating" class="form-label fs-5 color-teal">Rate Your Experience</label>
+                              <input type="number" class="form-control" name="rating" id="rating" min="1" max="5"></textarea>
+                            </div>
+                            <br>
+                             <div class="form-group text-center fs-5 color-teal">
+                               <input type="submit" class="btn btn-success" value="Send Message">
+                             </div>
+                           </form>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+         </div>
+    </main>
+    <div class="container ">
+      <h3 class=" fs-8 bi bi-download "> Download App </h3>
+      
+         <img src="assets/playstore.jpg" width="150px " class="m-3" >
+         <img src="assets/appstore.jpg" width="200px " class="m-3" >
+      </div>
+  <!-- Footer Section -->
+    <footer class="bg-dark">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-15">
+               <div class="container m-2">
+                  <img src="assets/logo.png" height="30px" class="bg-white">
+                  <div>
+                     <p class="text-white m-3">Your go-to destination for the finest and freshest fruits! We pride ourselves on offering a diverse selection of high-quality, locally-sourced, and exotic fruits to satisfy all your fruity cravings. Whether you're looking for seasonal  favourites, rare finds, or everyday essentials, our carefully curated collection ensures you get the best produce available. Explore our user-friendly website to discover detailed descriptions, nutritional information, and delicious recipes for each fruit. Enjoy the convenience of online shopping with secure payment options and fast delivery right to your doorstep. Join our community of fruit enthusiasts and experience the vibrant flavors and health benefits of FreshFruit Haven today!</p>
+                  </div>
+                  
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-4">
+                  <div class="container">
+                     <h5 class="text-white fs-5">Links</h5>
+                     <ul class="remove-bullets remove-text-decoration">
+                        <li><a href="#" >About Us</a></li>
+                        <li><a href="#" >Contact Us</a></li>
+                        <li><a href="#" class="remove-text-decoration text-white">Products Quality</a></li>
+                        <li><a href="#" class="remove-text-decoration text-white">Services</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="container">
+                     <h5 class="text-white fs-5">Popular Categories</h5>
+                     <ul class="remove-bullets remove-text-decoration">
+                        <li><a href="#" class="remove-text-decoration text-white">Fresh Fruits</a></li>
+                        <li><a href="#" class="remove-text-decoration text-white">Whole Wheat Bread</a></li>
+                        <li><a href="#" class="remove-text-decoration text-white">Beverages & Health Supplement</a></li>
+                        <li><a href="#" class="remove-text-decoration text-white">Jams and Spreads</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="container">
+                     <h5 class="text-white fs-5">Help & Support</h5>
+                     <ul class="remove-bullets remove-text-decoration">
+                        <li><a href="#" class="remove-text-decoration text-white">FAQs</a></li>
+                        <li><a href="#" class="remove-text-decoration text-white">Job Opportunity</a></li>
+                        <li><a href="#" class="remove-text-decoration text-white">HB Pricing Policy</a></li>
+                        <li><a href="#" class="remove-text-decoration text-white">Terms And Condition</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         </div>
+         
+         <div class="row">
+            <div class="text-white text-center">
+               <p>All rights reserved &copy 2020, <a href="freshfruit.ai">freshfruit.ai</a></p>
+            </div>
+         </div>
+         
+    </footer>
+    <!-- Script -->
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap js -->
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+   </body>
+</html>
